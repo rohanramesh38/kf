@@ -1,0 +1,105 @@
+﻿
+    .btn {
+        font-size: 18;
+    }
+    
+    /*
+    In many cases you may want to use the NativeScript core theme instead
+    of writing your own CSS rules. For a full list of class names in the theme
+    refer to http://docs.nativescript.org/ui/theme.
+    */
+    @import '~nativescript-theme-core/css/core.light.css';
+    .container {
+      padding: 10;
+     
+    }
+    kol{
+      background-color:#BEBEBE;
+    }
+    .login-logo {
+      margin-bottom: 10;
+    }
+    .question {
+      padding: 10;
+      margin: 10;
+      color: #333;
+     
+      font-size: 17;
+      
+    }
+    .choice {
+      margin-top: 10;
+      margin-bottom: 10;
+      white-space: normal;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular';
+      padding: 10;
+      font-size: 14;
+    }
+    #show {
+      float: left;
+      background-color: #03709E;
+      color: white;
+    }
+    #next {
+      float: right;
+      background-color:#f59d1a;
+      color: white;
+    }
+    .exam-score {
+      color: green;
+      text-align: right;
+    }
+    .exam-list {
+      padding: 10;
+    }
+    .exam-score-perc {
+      text-align: left;
+      color: green;
+    }
+    .qno {
+      font-size: 10;
+      font: outline;
+    }
+    
+    .right {
+      font-size: 10;
+    
+    }
+    .action-image {
+      width: 10;
+      height: 10;
+      vertical-align: center;
+    }
+    
+    .action-label {
+      color: #3C5AFD;
+      font-size: 24;
+      font-weight: bold;
+      vertical-align: center;
+    }
+    FlexboxLayout {
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-image: url("~/str.jpg");
+    }
+    StackLayout {
+      width: 350;
+      padding: 10 16;
+      background-color: #f0f0f0;
+    }
+    
+    .SLayout {
+      background-image: url("~/str.jpg");
+    }
+    .tbv
+    {
+      background-image: url("~/logo.png");
+    }
+    en{
+    
+      height: 200;
+      width: 500;
+    
+    }
+    

@@ -1,0 +1,18 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:calendar="nativescript-pro-ui/calendar" loaded="pageLoaded" xmlns:df="nativescript-pro-ui/dataform" xmlns="http://www.nativescript.org/tns.xsd" actionBarHidden="true" >
+
+ <FlexboxLayout>
+<StackLayout class="form" verticalAlignment="center">
+
+ <!-- <Label text="Login failed" style="color:red;margin-bottom:10;text-align:center;" visibility="{{ showError ? 'visible' : 'collapsed' }}" id="login-failed"/>
+  --><StackLayout class="login-logo">
+    <Image src="~/logo.png"/>
+  </StackLayout>
+
+  <StackLayout class="input-field">
+    <TextField class="input" hint="Email" id="email" text="{{email}}" keyboardType="email" autocorrect="false" autocapitalizationType="none"></TextField>
+  </StackLayout>
+
+  <Button text="Log In" tap="onLogin" class="btn btn-primary"></Button>
+</StackLayout>
+ </FlexboxLayout>
+</Page>
